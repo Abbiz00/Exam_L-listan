@@ -80,6 +80,7 @@ Bara enhetstester eller integrationstester:
 ```bash
 pytest -m unit
 pytest -m integration
+behave src/features/statistik.feature
 ```
 
 BDD-testerna körs headless. För att se webbläsaren, ändra `headless=True` till `headless=False` i `src/features/environment.py`.
