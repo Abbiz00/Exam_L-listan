@@ -50,7 +50,7 @@ Totalt: 25 pytest-tester och 28 BDD-scenarier. Koden kontrolleras även med flak
 
 ### CI
 
-Alla tester körs automatiskt med GitHub Actions (`.github/workflows/tests.yml`) vid push och pull request till `main`. Webbläsaren körs headless.
+Alla tester körs automatiskt med GitHub Actions (`.github/workflows/tests.yml`) vid push och pull request till `master`. Webbläsaren körs headless.
 
 ## 2. Hur man startar projektet
 

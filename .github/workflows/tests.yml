@@ -1,11 +1,12 @@
 name: Python CI
 
-# Talar om när jobben ska köras: vid push eller pull request mot main
+# Talar om när jobben ska köras: vid push eller pull request mot master, eller manuellt
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
+  workflow_dispatch:
 
 jobs:
   build-and-test:
